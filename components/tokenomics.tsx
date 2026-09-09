@@ -13,8 +13,8 @@ export function Tokenomics() {
           </h2>
         </div>
         <p className="max-w-sm text-sm leading-relaxed">
-          Trading fees hit the Index Treasury. Half is ours to claim. The other
-          half is the floor&apos;s mix: PONS, burn, and locked liquidity.
+          Trading fees hit our Treasury. 50% goes to holders in PONS, burns and
+          locked liquidity.
         </p>
       </div>
 
