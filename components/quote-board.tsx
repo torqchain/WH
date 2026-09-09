@@ -9,7 +9,7 @@ import { getQuote } from "@/lib/quote";
 import {
   explorerAddress,
   isLaunched,
-  ponsTokenUrl,
+  launchTokenUrl,
   shortAddress,
   site,
 } from "@/lib/site";
@@ -60,8 +60,8 @@ export async function QuoteBoard() {
               size="lg"
               className="h-11 rounded-none border-2 border-foreground bg-foreground px-5 font-heading text-xl tracking-wide text-wh-yellow hover:bg-foreground/90"
             >
-              <Link href={ponsTokenUrl()} target="_blank" rel="noreferrer">
-                {launched ? `Buy ${site.listedAs} on Pons` : "Launching on Pons"}
+              <Link href={launchTokenUrl()} target="_blank" rel="noreferrer">
+                {launched ? `Buy ${site.listedAs} on LONG` : "Launching on LONG"}
                 <ArrowUpRight data-icon="inline-end" />
               </Link>
             </Button>
@@ -71,7 +71,7 @@ export async function QuoteBoard() {
               size="lg"
               className="h-11 rounded-none border-2 border-foreground bg-wh-paper font-heading text-xl tracking-wide"
             >
-              <a href="#treasury">Index Treasury</a>
+              <a href="#pair">Anchored to AMC</a>
             </Button>
           </div>
 
@@ -136,7 +136,7 @@ export async function QuoteBoard() {
                 </>
               ) : (
                 <div className="mt-1 font-mono text-xs text-foreground/50 sm:text-sm">
-                  Pending Pons launch
+                  Pending LONG launch
                 </div>
               )}
             </div>

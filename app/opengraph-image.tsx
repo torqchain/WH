@@ -52,7 +52,7 @@ export default async function OpenGraphImage() {
               textTransform: "uppercase",
             }}
           >
-            <span>Robinhood Chain · Pons</span>
+            <span>Robinhood Chain · LONG</span>
             <span>Meme · Open 24h</span>
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
@@ -77,8 +77,8 @@ export default async function OpenGraphImage() {
               textTransform: "uppercase",
             }}
           >
-            <span>50% kitchen · 50% floor</span>
-            <span>Burn 25 · Liq 25 · Pons 50</span>
+            <span>$WH / $AMC</span>
+            <span>Anchored to AMC</span>
             <span>Always open</span>
           </div>
         </div>

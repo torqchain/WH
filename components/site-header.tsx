@@ -5,21 +5,23 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { WaffleWordmark } from "@/components/waffle-logo";
-import { isLaunched, ponsTokenUrl, site } from "@/lib/site";
+import { isLaunched, launchTokenUrl, site } from "@/lib/site";
 
 const nav = [
   { href: "#quote", label: "Quote" },
   { href: "#thesis", label: "Thesis" },
-  { href: "#tokenomics", label: "Tokenomics" },
-  { href: "#treasury", label: "Treasury" },
+  { href: "#pair", label: "Pair" },
+  { href: "#launch", label: "Launch" },
   { href: "#wojack", label: "Wojack" },
   { href: "#faq", label: "FAQ" },
 ];
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
-  const buyHref = ponsTokenUrl();
-  const buyLabel = isLaunched() ? `Buy ${site.listedAs} on Pons` : "Launching on Pons";
+  const buyHref = launchTokenUrl();
+  const buyLabel = isLaunched()
+    ? `Buy ${site.listedAs} on LONG`
+    : "Launching on LONG";
 
   function go(href: string) {
     setOpen(false);

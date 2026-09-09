@@ -12,22 +12,22 @@ export function SiteFooter() {
             {site.listedAs} · MEME
           </div>
           <p className="mt-3 max-w-xl text-sm leading-relaxed text-wh-yellow/80">
-            $WH is a memecoin ticker for a privately owned restaurant and a Pons
-            launch with an Index Treasury. Nothing here is equity, an offering,
-            or financial advice. You can lose everything. The hash browns are
-            still better.
+            $WH is a memecoin ticker for a privately owned restaurant, launching
+            on LONG and paired with tokenized AMC. Nothing here is equity, an
+            offering, or financial advice. You can lose everything. The hash
+            browns are still better.
           </p>
         </div>
         <div className="font-mono text-[11px] tracking-[0.14em] uppercase">
           <div className="flex flex-col gap-1">
-            <Link href={site.ponsExplore} target="_blank" rel="noreferrer" className="underline">
-              Pons launchpad
+            <Link href={site.venueExplore} target="_blank" rel="noreferrer" className="underline">
+              LONG
             </Link>
-            <Link href={site.indexBuild} target="_blank" rel="noreferrer" className="underline">
-              Indices builder
+            <Link href="#pair" className="underline">
+              $WH / $AMC
             </Link>
-            <Link href="#treasury" className="underline">
-              Treasury
+            <Link href="#launch" className="underline">
+              Launch
             </Link>
           </div>
         </div>

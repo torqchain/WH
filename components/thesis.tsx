@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import { site } from "@/lib/site";
 
 const beats = [
   {
@@ -13,9 +14,9 @@ const beats = [
     body: "Waffle House is the best place in town to watch a night go sideways. Hash browns at 2 a.m. Parking-lot diplomacy. A jukebox, a griddle, and a floor mat that has seen some bizarre things land on it. It is the Jerry Springer of restaurants, and that is exactly why it is the perfect private-company meme ticker.",
   },
   {
-    kicker: "The flywheel",
+    kicker: "The pair",
     title: "Degen Finance The RH Way.",
-    body: "This is more than a meme stock ticker. It is a Pons launch whose trading fees turn to burns, locked liquidity, and $PONS.",
+    body: "This is a LONG launch anchored to tokenized AMC. Buy $WH, the pool holds AMC. No vault. The stock token is the other side of the booth.",
   },
 ];
 
@@ -51,23 +52,21 @@ export function Thesis() {
       <p className="mt-4 font-mono text-[11px] leading-relaxed text-foreground/70">
         $WH does not grant equity, dividends, voting rights, or a free All-Star
         Breakfast. Waffle House remains privately owned. This ticker is a
-        community meme built on{" "}
+        community meme launched on{" "}
         <Link
-          href="https://ponsfamily.com/launchpad"
+          href={site.venueHome}
           className="underline underline-offset-2"
           target="_blank"
           rel="noreferrer"
         >
-          Pons
+          LONG
         </Link>{" "}
-        and{" "}
+        and paired with{" "}
         <Link
-          href="https://indices.theindex.finance/build"
+          href="#pair"
           className="underline underline-offset-2"
-          target="_blank"
-          rel="noreferrer"
         >
-          Indices
+          {site.pair.listedAs}
           <ArrowUpRight className="ml-0.5 inline size-3" />
         </Link>
         .

@@ -1,10 +1,10 @@
 # $WH · Waffle House
 
-Memecoin ticker site for **Waffle House ($WH)** — a private-company meme listing on [Pons](https://ponsfamily.com/launchpad), with fees routed to an [Index Treasury](https://indices.theindex.finance/build).
+Memecoin ticker site for **Waffle House ($WH)** — a private-company meme listing on [LONG](https://app.long.xyz), paired with tokenized [AMC](https://robinhoodchain.blockscout.com/token/0x05a3d1Cd21d0C88145E82600E62e7E496e0F222B).
 
 Repo: [github.com/torqchain/WH](https://github.com/torqchain/WH)
 
-This is not Waffle House stock. Waffle House is privately owned. $WH is a joke ticker for a restaurant people actually love, plus a vault that splits trading fees with holders.
+This is not Waffle House stock. Waffle House is privately owned. $WH is a joke ticker for a restaurant people actually love, launched against AMC on LONG. There is no vault.
 
 ## The pitch
 
@@ -14,11 +14,12 @@ Robinhood Chain already has tokenized public stocks. The thing people want is a 
 
 | Piece | Value |
 | --- | --- |
-| Venue | [Pons](https://ponsfamily.com/launchpad) on Robinhood Chain |
-| Fee split | 50% kitchen (creator) / 50% floor (holders) |
-| Floor mix | 50% $PONS · 25% burn · 25% locked liquidity |
+| Venue | [LONG](https://app.long.xyz) on Robinhood Chain |
+| Pair | $WH / $AMC |
+| AMC contract | `0x05a3d1Cd21d0C88145E82600E62e7E496e0F222B` |
+| Vault | None |
 
-After the Pons contract exists, set `NEXT_PUBLIC_WH_TOKEN` to the token address. The WH TOKEN ticket then shows that contract, and **Last** / **Mcap** pull from DexPaprika on Robinhood Chain every 20 seconds. Buy buttons point at `https://ponsfamily.com/launchpad/<token>`. Until that env is set, Contract Address stays pending and Last stays PRE-MARKET.
+After the LONG contract exists, set `NEXT_PUBLIC_WH_TOKEN` to the token address. The WH TOKEN ticket then shows that contract, and **Last** / **Mcap** pull from DexPaprika on Robinhood Chain every 20 seconds. Buy buttons point at `https://app.long.xyz/tokens/<token>`. Until that env is set, Contract Address stays pending and Last stays PRE-MARKET.
 
 ## Run locally
 

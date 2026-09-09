@@ -1,31 +1,31 @@
 const steps = [
   {
     n: "01",
-    title: "Launch on Pons",
-    body: "$WH goes live on Pons, Robinhood Chain's meme factory. No committee. Wallet in, ticker out.",
+    title: "Launch on LONG",
+    body: "$WH goes live on LONG, the Robinhood Chain pad that puts memes on top of stock tokens. Wallet in, ticker out.",
   },
   {
     n: "02",
-    title: "Fees hit the vault",
-    body: "Trading fees route to the Index Treasury. Indices takes its protocol cut. The rest is ours to split.",
+    title: "Anchor to AMC",
+    body: "The pair is $WH / $AMC. Tokenized AMC Entertainment is the other side of the pool. No treasury. No fee vault.",
   },
   {
     n: "03",
-    title: "Kitchen / floor",
-    body: "50% stays with the kitchen. 50% hits the floor mix: 50% PONS, 25% burn, 25% locked liquidity.",
+    title: "Trade the floor",
+    body: "Buying $WH puts AMC in the pool. Selling $WH takes AMC out. The stock token is the market, 24 hours a day.",
   },
 ];
 
-export function Treasury() {
+export function Launch() {
   return (
-    <section id="treasury" className="mx-auto max-w-6xl px-4 py-6 sm:py-10">
+    <section id="launch" className="mx-auto max-w-6xl px-4 py-6 sm:py-10">
       <div className="border-2 border-foreground bg-foreground text-wh-yellow">
         <div className="px-4 py-3">
           <p className="font-mono text-[10px] tracking-[0.28em] uppercase">
-            Indices · Basket vault
+            LONG · Stock-token pair
           </p>
           <h2 className="font-heading text-5xl leading-none sm:text-6xl">
-            How do we pay?
+            How it launches
           </h2>
         </div>
       </div>

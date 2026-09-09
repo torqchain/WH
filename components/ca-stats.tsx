@@ -66,8 +66,8 @@ export function CaStats({ initial }: { initial: MarketQuote }) {
         value={mcap}
         tone={quote.status === "live" ? "default" : "muted"}
       />
-      <QuoteStat label="Venue" value="PONS" />
-      <QuoteStat label="Features" value="Treasury Vault" />
+      <QuoteStat label="Venue" value="LONG" />
+      <QuoteStat label="Pair" value="AMC" />
     </div>
   );
 }

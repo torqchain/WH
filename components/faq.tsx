@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ponsTokenUrl, site } from "@/lib/site";
+import { launchTokenUrl, site } from "@/lib/site";
 
 const faqs = [
   {
@@ -8,12 +8,12 @@ const faqs = [
   },
   {
     q: "Where does it launch?",
-    a: `On Pons (${site.ponsExplore.replace("https://", "")}), the Robinhood Chain launchpad. After the contract is live, the Buy button on this site points at the Pons token page.`,
+    a: `On LONG (${site.venueHome.replace("https://", "")}), the Robinhood Chain launchpad that pairs memes with stock tokens. After the contract is live, the Buy button on this site points at the LONG token page.`,
     extra: true,
   },
   {
-    q: "What is the Index Treasury?",
-    a: "A vault from indices.theindex.finance. Fees from the coin buy a configured mix and push it onchain. Ours is 50% kitchen / 50% holders, with the holder mix set to 50% PONS, 25% burn, 25% liquidity.",
+    q: "Why AMC? Is there a vault?",
+    a: "No vault. $WH is anchored to tokenized AMC on LONG. Buying $WH puts AMC in the pool. Waffle House is the Jerry Springer of restaurants; AMC is the other 2 a.m. ticker. Pair them.",
   },
 ];
 
@@ -46,12 +46,12 @@ export function Faq() {
                   <>
                     {" "}
                     <Link
-                      href={ponsTokenUrl()}
+                      href={launchTokenUrl()}
                       className="underline underline-offset-2"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Open Pons
+                      Open LONG
                     </Link>
                   </>
                 ) : null}
