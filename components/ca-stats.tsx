@@ -67,7 +67,7 @@ export function CaStats({ initial }: { initial: MarketQuote }) {
         tone={quote.status === "live" ? "default" : "muted"}
       />
       <QuoteStat label="Venue" value="LONG" />
-      <QuoteStat label="Pair" value="AMC" />
+      <QuoteStat label="Pair" value="AI" />
     </div>
   );
 }

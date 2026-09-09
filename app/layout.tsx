@@ -30,26 +30,26 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "$WH · Waffle House — private meme ticker",
   description:
-    "The Waffle House memecoin ticker. Tokenize the private sector. Launching on LONG, paired with tokenized AMC. No vault.",
+    "The Waffle House memecoin ticker. Tokenize the private sector. Launching on LONG, paired with $AI. No vault.",
   applicationName: "$WH Waffle House",
   keywords: [
     "Waffle House",
     "$WH",
     "LONG",
-    "AMC",
+    "$AI",
     "Robinhood Chain",
     "memecoin",
   ],
   openGraph: {
     title: "$WH · Waffle House — private meme ticker",
     description:
-      "Great food, great deals, ghetto-tier drama. The Jerry Springer of restaurants, listed as a private-company meme ticker on LONG, paired with AMC.",
+      "Great food, great deals, ghetto-tier drama. The Jerry Springer of restaurants, listed as a private-company meme ticker on LONG, paired with $AI.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "$WH · Waffle House",
-    description: "Private-company meme ticker. Launching on LONG, paired with AMC.",
+    description: "Private-company meme ticker. Launching on LONG, paired with $AI.",
   },
 };
 

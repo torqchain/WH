@@ -10,12 +10,12 @@ export function Pair() {
             LONG · Anchored pair
           </p>
           <h2 className="font-heading text-5xl leading-none sm:text-6xl">
-            $WH / $AMC
+            {site.listedAs} / {site.pair.listedAs}
           </h2>
         </div>
         <p className="max-w-sm text-sm leading-relaxed">
-          No vault. No kitchen cut. $WH launches on LONG, anchored to tokenized
-          AMC. Buying the meme puts AMC in the pool.
+          No vault. No kitchen cut. $WH launches on LONG, anchored to $AI.
+          Buying the meme puts Artificial Inu in the pool.
         </p>
       </div>
 
@@ -34,8 +34,8 @@ export function Pair() {
             <PairCard
               ticker={site.pair.listedAs}
               title={site.pair.name}
-              subtitle="The stock token"
-              body="Robinhood's tokenized AMC. Public, onchain, 24h. LONG uses it as the other side of the pool."
+              subtitle="The meme ticker"
+              body="LONG's flagship meme. Other tokens launch against it. $WH uses $AI as the other side of the pool."
               highlight
             />
           </div>
@@ -43,12 +43,13 @@ export function Pair() {
 
         <div className="ticket border-2 border-foreground shadow-[8px_8px_0_0_#121008]">
           <div className="border-b-2 border-foreground bg-foreground px-4 py-2 font-heading text-2xl text-wh-yellow">
-            Why AMC
+            Why $AI
           </div>
           <div className="space-y-3 p-4">
             <p className="text-sm leading-relaxed">
-              Waffle House is the Jerry Springer of restaurants. AMC is the
-              other 2 a.m. ticker. Pair the diner with the theater.
+              LONG lets a new meme launch against $AI instead of a stock.
+              Artificial Inu is the booth next to ours. Pair the diner with the
+              inu.
             </p>
             <ul className="space-y-2 font-mono text-[11px] tracking-[0.12em] uppercase">
               <li className="border-2 border-foreground bg-wh-paper px-3 py-2">
@@ -67,7 +68,7 @@ export function Pair() {
               rel="noreferrer"
               className="inline-block font-mono text-[10px] tracking-[0.18em] uppercase underline underline-offset-2"
             >
-              AMC contract on explorer
+              $AI contract on explorer
             </Link>
           </div>
         </div>

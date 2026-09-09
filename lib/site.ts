@@ -12,10 +12,10 @@ export const site = {
   explorerBase: "https://robinhoodchain.blockscout.com",
   token: /^0x[a-fA-F0-9]{40}$/.test(rawToken) ? rawToken : "",
   pair: {
-    ticker: "AMC",
-    listedAs: "$AMC",
-    name: "AMC Entertainment",
-    address: "0x05a3d1Cd21d0C88145E82600E62e7E496e0F222B",
+    ticker: "AI",
+    listedAs: "$AI",
+    name: "Artificial Inu",
+    address: "0x2E8c31162b855A2ffa90F6F8634643Ad6F111e18",
   },
 } as const;
 

@@ -8,7 +8,7 @@ const items = [
   "MEME PRIVATE TICKER",
   "TOKENIZE THE PRIVATE SECTOR",
   "LAUNCHING ON LONG",
-  "ANCHORED TO AMC",
+  "ANCHORED TO $AI",
   `${site.listedAs} / ${site.pair.listedAs}`,
   "NO VAULT",
   "OPEN 24 HOURS",

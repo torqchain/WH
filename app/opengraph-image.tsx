@@ -77,8 +77,8 @@ export default async function OpenGraphImage() {
               textTransform: "uppercase",
             }}
           >
-            <span>$WH / $AMC</span>
-            <span>Anchored to AMC</span>
+            <span>$WH / $AI</span>
+            <span>Anchored to $AI</span>
             <span>Always open</span>
           </div>
         </div>

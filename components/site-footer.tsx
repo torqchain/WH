@@ -13,7 +13,7 @@ export function SiteFooter() {
           </div>
           <p className="mt-3 max-w-xl text-sm leading-relaxed text-wh-yellow/80">
             $WH is a memecoin ticker for a privately owned restaurant, launching
-            on LONG and paired with tokenized AMC. Nothing here is equity, an
+            on LONG and paired with $AI. Nothing here is equity, an
             offering, or financial advice. You can lose everything. The hash
             browns are still better.
           </p>
@@ -24,7 +24,7 @@ export function SiteFooter() {
               LONG
             </Link>
             <Link href="#pair" className="underline">
-              $WH / $AMC
+              $WH / $AI
             </Link>
             <Link href="#launch" className="underline">
               Launch

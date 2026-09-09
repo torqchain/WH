@@ -71,7 +71,7 @@ export async function QuoteBoard() {
               size="lg"
               className="h-11 rounded-none border-2 border-foreground bg-wh-paper font-heading text-xl tracking-wide"
             >
-              <a href="#pair">Anchored to AMC</a>
+              <a href="#pair">Anchored to $AI</a>
             </Button>
           </div>
 

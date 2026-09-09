@@ -2,17 +2,17 @@ const steps = [
   {
     n: "01",
     title: "Launch on LONG",
-    body: "$WH goes live on LONG, the Robinhood Chain pad that puts memes on top of stock tokens. Wallet in, ticker out.",
+    body: "$WH goes live on LONG, the Robinhood Chain pad that can pair a new meme against $AI. Wallet in, ticker out.",
   },
   {
     n: "02",
-    title: "Anchor to AMC",
-    body: "The pair is $WH / $AMC. Tokenized AMC Entertainment is the other side of the pool. No treasury. No fee vault.",
+    title: "Anchor to $AI",
+    body: "The pair is $WH / $AI. Artificial Inu is the other side of the pool. No treasury. No fee vault.",
   },
   {
     n: "03",
     title: "Trade the floor",
-    body: "Buying $WH puts AMC in the pool. Selling $WH takes AMC out. The stock token is the market, 24 hours a day.",
+    body: "Buying $WH puts $AI in the pool. Selling $WH takes $AI out. The meme ticker is the market, 24 hours a day.",
   },
 ];
 
@@ -22,7 +22,7 @@ export function Launch() {
       <div className="border-2 border-foreground bg-foreground text-wh-yellow">
         <div className="px-4 py-3">
           <p className="font-mono text-[10px] tracking-[0.28em] uppercase">
-            LONG · Stock-token pair
+            LONG · $AI pair
           </p>
           <h2 className="font-heading text-5xl leading-none sm:text-6xl">
             How it launches

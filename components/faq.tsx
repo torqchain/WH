@@ -8,12 +8,12 @@ const faqs = [
   },
   {
     q: "Where does it launch?",
-    a: `On LONG (${site.venueHome.replace("https://", "")}), the Robinhood Chain launchpad that pairs memes with stock tokens. After the contract is live, the Buy button on this site points at the LONG token page.`,
+    a: `On LONG (${site.venueHome.replace("https://", "")}), the Robinhood Chain launchpad. $WH is paired with $AI. After the contract is live, the Buy button on this site points at the LONG token page.`,
     extra: true,
   },
   {
-    q: "Why AMC? Is there a vault?",
-    a: "No vault. $WH is anchored to tokenized AMC on LONG. Buying $WH puts AMC in the pool. Waffle House is the Jerry Springer of restaurants; AMC is the other 2 a.m. ticker. Pair them.",
+    q: "Why $AI? Is there a vault?",
+    a: "No vault. $WH is anchored to $AI (Artificial Inu) on LONG. Buying $WH puts $AI in the pool. LONG's flagship meme is the other side of the booth.",
   },
 ];
 

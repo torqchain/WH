@@ -16,7 +16,7 @@ const beats = [
   {
     kicker: "The pair",
     title: "Degen Finance The RH Way.",
-    body: "This is a LONG launch anchored to tokenized AMC. Buy $WH, the pool holds AMC. No vault. The stock token is the other side of the booth.",
+    body: "This is a LONG launch anchored to $AI. Buy $WH, the pool holds Artificial Inu. No vault. The meme ticker is the other side of the booth.",
   },
 ];
 
